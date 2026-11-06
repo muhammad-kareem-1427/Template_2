@@ -8,13 +8,13 @@
             "type": "msedge",
             "request": "launch",
             "name": "Edge Launcher",
-            "file": "m:\\Projects Courses\\Academic Projects\\Template_2\\File.html"
+            "file": "m:\\Projects Courses\\Academic Projects\\Template_2\\index.html"
         },
         {
             "type": "chrome",
             "request": "launch",
             "name": "Chrome Launcher",
-            "file": "m:\\Projects Courses\\Academic Projects\\Template_2\\File.html"
+            "file": "m:\\Projects Courses\\Academic Projects\\Template_2\\index.html"
         }
     ]
 }
