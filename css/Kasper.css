@@ -441,3 +441,95 @@ header .container nav .form i {
 
 
 /* End Design Section */
+
+/* Start Portfolio */
+
+.portfolio {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+
+.portfolio .container {}
+
+.portfolio .container .shuffle {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio .container .shuffle>li {
+    padding: 10px;
+}
+
+.portfolio .container .shuffle li.active {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.portfolio .imgs-holder {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.portfolio .imgs-holder .box {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio .imgs-holder .box:hover .caption {
+    bottom: 0;
+}
+
+.portfolio .imgs-holder .box:hover img {
+    transform: scale(1.1) rotate(3deg);
+}
+
+@media (min-width : 768px) {
+    .portfolio .imgs-holder .box {
+        flex-basis: 50%;
+    }
+}
+
+@media (min-width : 1199px) {
+    .portfolio .imgs-holder .box {
+        flex-basis: 25%;
+    }
+}
+
+.portfolio .imgs-holder .box img {
+    max-width: 100%;
+    transition: all 0.3s ease 0.1s;
+}
+
+.portfolio .imgs-holder .box .caption {
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    transition: all 0.3s ease 0.1s;
+    background-color: white;
+    bottom: -100%;
+}
+
+.portfolio .imgs-holder .box .caption h4 {
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.portfolio .imgs-holder .box .caption p {
+    color: var(--main-color);
+}
+
+.portfolio .more {
+    width: fit-content;
+    margin: 30px auto 0;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: 400;
+}
+
+/* End Portfolio */
